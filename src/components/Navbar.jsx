@@ -50,7 +50,7 @@ const Navbar = () => {
                 </div>
             </nav>
 
-            <div className={`space-y-4 px-4 pt-36 pb-5 bg-gray ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden" }`}>
+            <div className={`space-y-4 px-4 pt-36 pb-5 bg-gray ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden md:hidden lg:hidden" }`}>
                 {
                     navItems.map(({ link, path }) => <a key={link} href={path} className='block text-2xl hover:text-secondary'>{link}</a>)
                 }

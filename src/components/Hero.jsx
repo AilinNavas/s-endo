@@ -21,8 +21,8 @@ function Hero() {
               
             </div>
             <div className='relative bottom-11 flex justify-center justify-items-center m-auto'>
-                <button className='bg-secondary mx-3 py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-indigo-800 md:text-xl lg:text-3xl'>Refer now</button>
-                <button className='bg-secondary mx-3 py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-indigo-800 md:text-xl lg:text-3xl '>About us</button>
+                <button className='bg-transparent border-slate-200 mx-3 py-2 px-4 transition-all duration-300 rounded text-gray hover:text-white hover:bg-indigo-800 md:text-xl lg:text-3xl'>Refer now</button>
+                <button className='bg-transparent border-slate-200 mx-3 py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-indigo-800 md:text-xl lg:text-3xl '>About us</button>
 
             </div>
             
