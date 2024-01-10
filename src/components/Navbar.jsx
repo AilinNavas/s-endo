@@ -18,12 +18,12 @@ const Navbar = () => {
     ]
     return (
         <>
-            <nav className='bg-white md:px-1  max-w-screen-2x1 mx-auto text-primary fixed top-0 right-0 left-0'>
+            <nav className='bg-transparent md:px-1  max-w-screen-2x1 mx-auto text-primary fixed top-0 right-0 left-0'>
                 <div className='text-lg container mx-auto flex justify-between items-center font-medium animate-fade-down animate-delay-[1000ms]'>
                     <div className='flex space-x-14 items-center'>
-                        <a className='' href="/">
+                         <a className='' href="/">
                             <img className='h-20 w-30 p-2 inline-block items-center hover:animate-rotate-y animate-duration-[50ms] animate-delay-[50ms]' src={logo} alt="" />
-                        </a>
+                        </a> 
 
                         <ul className='md:flex space-x-12 hidden'>
                             {

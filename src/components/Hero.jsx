@@ -5,27 +5,21 @@ import fondo from '../assets/fondo.avif'
 
 function Hero() {
     return (
-        <div className='snap-y snap-mandatory w-screen h-screen overflow-x-hidden'>
+        <div className=''>
 
-            <div className=' max-w-[800px] my-32 w-full mx-auto text-center flex flex-col justify-center'>
+            <div className=' max-w-[800px] -mt-96px h-screen w-full mx-auto text-center flex flex-col justify-center'>
                 <p className='text-transform: capitalize text-2xl font-bold text-gray p-2 '>Experience endodontic care</p>
-                <h1 className='text-6xl font-semibold p-4 text-primary lg:text-8xl'>ROOT CANAL TREATMENT</h1>
+                <h1 className='text-5xl font-semibold p-4 text-primary md:text-6xl py-6 lg:text-8xl'>ROOT CANAL TREATMENT</h1>
                 <div>
-                    <Typed className='md:text-4xl sm:text-3xl text-xl text-transform: capitalize font-medium text-secondary'
+                    <Typed className=' md:text-2xl  sm:text-xl lg:text-4xl text-transform: capitalize font-medium text-secondary md:py-4'
                         strings={['Advanced Treatment Methods', 'Prompt Emergency Care', 'Flexible Financial Options', 'Se habla Español']}
                         typeSpeed={40}
                         backSpeed={20}
                         loop
                     />
                 </div>
-              
+                <button className='bg-trasparent shadow-secondary hover:bg-sky-500 hover:text-primary w-[200px] rounded-md text-xl my-10 m-auto py-4 shadow hover:shadow-2xl text-gray t-24'>Refer Now</button>
             </div>
-            <div className='relative bottom-11 flex justify-center justify-items-center m-auto'>
-                <button className='bg-transparent border-slate-200 mx-3 py-2 px-4 transition-all duration-300 rounded text-gray hover:text-white hover:bg-indigo-800 md:text-xl lg:text-3xl'>Refer now</button>
-                <button className='bg-transparent border-slate-200 mx-3 py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-indigo-800 md:text-xl lg:text-3xl '>About us</button>
-
-            </div>
-            
 
         </div>
     )

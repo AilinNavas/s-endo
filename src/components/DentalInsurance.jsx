@@ -1,22 +1,39 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade';
-import one from '../assets/1.png'
-import { FaHeartCircleCheck } from "react-icons/fa6";
 
 
 const DentalInsurance = () => {
   return (
-    <div className='snap-start'>
+    <div className='bg-primary h-screen'>
+      <div className=' max-w-[1200px] text-center m-auto'>
+      <h2 className='text-4xl text-white text-center py-5 md:text-5xl lg:text-6xl lg:mb-10 pt-14'>Dental Insurance</h2>
+      <p className='text-xl text-white text-center mb-4 px-8 md:text-2xl lg:text-4xl lg:px-20 '>We accept most dental insurance, including out-of-network, so don't hesitate to schedule with us.</p>
+      <p className='text-xl text-white text-center mb-4 px-8 md:text-2xl lg:text-4xl lg:px-20 '>Insurance often pays the same for out-of-network treatment as in-network.</p>
+      <p className='text-xl text-white text-center mb-10 px-8 md:text-2xl lg:text-4xl lg:px-20 lg:pb-6'> We are in network with the following insurance providers:</p>
+      <div className='sm: grid grid-cols-3 gap-3 place-items-center px-8 md:grid-cols-7 '>
 
-      <Fade left>
-        <div className=' bg-primary h-screen w-screen'>
-          <h2 className='text-white text-4xl pt-8 m-auto md:text-6xl flex justify-center underline underline-offset-8'> <FaHeartCircleCheck className='mr-2' />
-            Dental Insurance</h2>
-          <p className='text-gray text-lg m-auto text-center p-8'> We accept most dental insurance, including out-of-network, so don't hesitate to schedule with us. Insurance often pays the same for out-of-network treatment as in-network. We are in network with the following insurance providers:</p>
-        </div>
-        <img class="rounded-full w-96 h-96" src={one} alt="image description" />
-      </Fade>
+        <div className='' ><img src="src\assets\1.png" alt="" /></div>
+        <div className=""><img src="src\assets\2.png" alt="" /></div>
+        <div className=""><img src="src\assets\3.png" alt="" /></div>
+        <div className=""><img src="src\assets\4.png" alt="" /></div>
+        <div className=""><img src="src\assets\5.png" alt="" /></div>
+        <div className=""><img src="src\assets\6.png" alt="" /></div>
+        <div className=""><img src="src\assets\7.png" alt="" /></div>
+        <div className=""><img src="src\assets\8.png" alt="" /></div>
+        <div className=""><img src="src\assets\9.png" alt="" /></div>
+        <div className=""><img src="src\assets\10.png" alt="" /></div>
+        <div className=""><img src="src\assets\11.png" alt="" /></div>
+        <div className=""><img src="src\assets\12.png" alt="" /></div>
+        <div className=""><img src="src\assets\13.png" alt="" /></div>
+        <div className=""><img src="src\assets\14.png" alt="" /></div>
+
+      </div>
+
+      <p className='pt-16 text-xl text-white text-center mb-10 px-8 md:text-2xl lg:text-4xl lg:px-20 lg:pt-20'>We will do everything possible to maximize your benefits and we can give you a breakdown of those benefits before we do treatment.</p>
+      </div>
+      
+
     </div>
+
 
   )
 };
